@@ -1,6 +1,6 @@
-import styles from "@/app/ui/dashboard/products/singleProduct/singleProduct.module.css";
+import styles from "@/app/ui/dashboard/blog/singleBlog/singleBlog.module.css";
 
-const SingleProductPage = async () => {
+const SingleBlogPage = async () => {
 
     return (
         <div className={styles.container}>
@@ -8,24 +8,14 @@ const SingleProductPage = async () => {
                 <div className={styles.imgContainer}>
                     <img src="/noavatar.png" alt="" />
                 </div>
-                Iphone
+                Blog Name
             </div>
             <div className={styles.formContainer}>
                 <form action="" className={styles.form}>
                 <label>Title</label>
-                <input type="text" name="title" placeholder="username" />
-                <label>Price</label>
-                <input type="number" name="price" placeholder="Ksh" />
-                <label>Stock No.</label>
-                <input type="number" name="stock" />
-                <label>Color</label>
-                <input
-                type="text"
-                name="color"
-                placeholder="color"
-                />
-                <label>Size</label>
-                <textarea type="text" name="size" placeholder="size" />
+                <input type="text" name="title" placeholder="name" />
+                <label>Created Date</label>
+                <input type="text" name="title" placeholder="date" />
                 <label>Category</label>
                 <select name="cat" id="cat">
                 <option value="general">Choose a Category</option>
@@ -42,4 +32,4 @@ const SingleProductPage = async () => {
     )
 }
 
-export default SingleProductPage;
+export default SingleBlogPage;

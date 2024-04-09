@@ -17,7 +17,12 @@ const SingleUserPage = async () => {
                 <label>Product Name</label>
                 <input type="text" name="productname" placeholder="productname" />
                 <label>Product Category</label>
-                <input type="text" name="category" placeholder="category" />
+                <select name="cat" id="cat">
+                <option value="general">Choose a Category</option>
+                <option value="kitchen">Kitchen</option>
+                <option value="phone">Phone</option>
+                <option value="computer">Computer</option>
+                </select>
                 <label>Price</label>
                 <input type="text" name="price" />
                 <label>Product Description</label>

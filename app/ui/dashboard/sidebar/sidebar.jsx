@@ -63,13 +63,13 @@ const menuItems = [
       title: "Blogs",
       list: [
         {
-          title: "Blog List",
-          path: "/dashboard/blogList",
+          title: "Blog",
+          path: "/dashboard/blog",
           icon: <MdOutlineSettings />,
         },
         {
           title: "Blog Category",
-          path: "/dashboard/blogcategory",
+          path: "/dashboard/blogCategory",
           icon: <MdHelpCenter />,
         },
         {
